@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "solo-shuffle-stats"
+version = "0.1.0"
+description = ""
+authors = ["anders <andersmg@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "solo_shuffle_stats"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dask = "^2023.2.0"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
